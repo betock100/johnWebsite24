@@ -1,0 +1,63 @@
+/* Styleshee by alberto tuesta
+April 6th 2024
+css styling for jrc-electri
+*/
+body {
+    background-color: #f0f0f0;
+    color: #333;    
+}
+
+.container {
+    border: red solid 3px;
+    max-width: 1440px;
+    width: auto;
+    margin: auto;
+}
+
+.heroLanding {
+    width: 100%;
+    height: 838px;    
+    background-color: black;
+    margin: auto;
+    background-image: url(landingImages/background1.jpeg) ;
+    background-size: cover;
+
+}
+
+.shade {
+    background-color: rgba(0, 0, 0, 0.37); /* Black color with 37% transparency */
+    width: 100%;
+    height: 100%;
+    
+
+}
+.navBar {
+    display: flex;
+    justify-content: space-between; /* Align items to the left and right edges */
+    align-items: center; /* Vertically center items */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 3%;
+}
+
+.logo {
+    background-image: url(landingImages/logo.png);
+    width: 204px;
+    height: 48px;
+    background-size: cover;
+}
+
+.navLinks {
+    display: flex;/* Ensure the navigation links are displayed horizontally */
+}
+
+.navLinks a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navLinks a:hover {
+    text-decoration: underline;
+}
