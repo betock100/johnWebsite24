@@ -1,14 +1,12 @@
 // script.js
 
 document.addEventListener("DOMContentLoaded", function() {
-    // Add event listeners or functions for dynamic navigation here
-    // For example:
-    const navLinks = document.querySelectorAll(".navLinks > div");
-    navLinks.forEach(link => {
-        link.addEventListener("click", function() {
-            // Handle navigation logic here
-            const pageName = this.textContent.toLowerCase().replace(/\s/g, "");
-            window.location.href = pageName + ".html"; // Assuming each page corresponds to a separate HTML file
-        });
+    const hamburgerIcon = document.querySelector(".hamburger-icon");
+    const navbar2 = document.querySelector(".navbar2");
+
+    // Add event listener to hamburger icon
+    hamburgerIcon.addEventListener("click", function() {
+        // Toggle a CSS class on navbar2 to show/hide it
+        navbar2.classList.toggle("show-navbar2");
     });
 });

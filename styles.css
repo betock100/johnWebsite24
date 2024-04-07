@@ -3,12 +3,12 @@ April 6th 2024
 css styling for jrc-electri
 */
 body {
-    background-color: #f0f0f0;
-    color: #333;    
+    background-color: black;
+    color: #333; 
+       
 }
 
 .container {
-    border: red solid 3px;
     max-width: 1440px;
     width: auto;
     margin: auto;
@@ -21,6 +21,8 @@ body {
     margin: auto;
     background-image: url(landingImages/background1.jpeg) ;
     background-size: cover;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    position: relative;
 
 }
 
@@ -35,10 +37,10 @@ body {
     display: flex;
     justify-content: space-between; /* Align items to the left and right edges */
     align-items: center; /* Vertically center items */
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    color: white;    
+    font-size: 18px;
     background-color: rgba(0, 0, 0, 0.37);
-    padding: 3%;
+    padding: 2%;
 }
 
 .logo {
@@ -50,6 +52,7 @@ body {
 
 .navLinks {
     display: flex;/* Ensure the navigation links are displayed horizontally */
+    align-items: center;/* Align items vertically in the center */
 }
 
 .navLinks a {
@@ -59,5 +62,148 @@ body {
 }
 
 .navLinks a:hover {
-    text-decoration: underline;
+    color: #16A6FF;
 }
+.navLinks a.contactButton {
+    /* Add specific styling for the "Contact us" button */
+    background-color: #16A6FF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.navLinks a.contactButton:hover {
+    /* Add specific hover styles for the "Contact us" button */
+    background-color: #1b88cb;
+    /* Add hover styles */
+}
+.hero-title h1 {
+    color: white;
+    font-size: 80px ;
+    padding-left: 2%;
+    margin-bottom: 0%;
+    margin-top: 12%;
+
+}
+.hero-title p {
+    color: white;
+    font-size: 26px;
+    padding-left: 3%;    
+}
+.learn {
+    background-color: #18CFDC;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 3%;
+    font-size: 20px;
+    
+}
+.learn:hover {
+    background-color: #16A6FF;
+}
+.gBottom {
+    background: linear-gradient(to top, rgba(10, 10, 10, 1), rgba(0, 0, 0, 0));
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+/* hamburger iconnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
+/* Hamburger icon */
+.hamburger-icon {
+    cursor: pointer;
+    display: none; /* Initially hidden */
+    /* Your styles for the hamburger icon */
+  }
+  .navbar2 {
+    background-color: #333;
+    color: #fff;
+    height: 40vh;
+    width: 90%;
+    position: fixed;
+    top: 0;
+    display: none;
+    transition: left 0.3s ease;
+    margin-top: 70px;
+  }
+
+  .navbar2.show-navbar2 {
+    display: block; /* Displayed when show-navbar2 class is present */
+}
+
+
+  
+  .navbar2 ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar2 li {
+    padding: 15px 0;
+    border-bottom: 2px solid rgb(101, 100, 100);
+  }
+  
+  .navbar2 a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+    width: 100%;
+  }
+
+  #toggle-menu:checked + .navbar2 {
+    left: 0;
+  }
+
+
+
+
+/*    ENDENDENDENDENDEND HAMBURGER  nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
+
+.footer {
+    border: rgb(30, 30, 30) solid 3px;
+    width: 100%;
+    height: 80px;
+    color: #16A6FF;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 3%;
+}
+
+/* Media query for screens 800px or smaller */
+@media screen and (max-width: 800px) {
+    /* Hide the original navbar */
+    .navLinks {
+      display: none;
+    }
+  
+    /* Display the hamburger icon */
+    .hamburger-icon {
+      display: block; /* Displayed when screen is 800px or smaller */
+      /* Your styles for the hamburger icon */
+    }
+
+    .heroLanding {        
+        height: 538px;     
+    }
+
+    .hero-title h1 {
+        font-size: 30px ;   
+    }
+    .hero-title p {
+        font-size: 16px;
+        padding-bottom: 30px;
+        }
+    }
+
+    
+  }
+
+  
