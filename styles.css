@@ -41,6 +41,7 @@ body {
     font-size: 18px;
     background-color: rgba(0, 0, 0, 0.37);
     padding: 2%;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .logo {
@@ -156,7 +157,7 @@ body {
 
   .navbar2.show-navbar2 {
     display: block; /* Displayed when show-navbar2 class is present */
-    height: 500px;
+    height: 400px;
 }
 
 
@@ -167,7 +168,7 @@ body {
   }
   
   .navbar2 li {
-    padding: 15px 0;
+    padding: 10px 0;
     border-bottom: 2px solid rgb(101, 100, 100);
   }
   
