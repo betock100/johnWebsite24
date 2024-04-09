@@ -116,8 +116,30 @@ body {
 /* Hamburger icon */
 .hamburger-icon {
     cursor: pointer;
-    display: none; /* Initially hidden */
-    /* Your styles for the hamburger icon */
+    padding: 1%;
+    border: solid white 2px;
+    display: none;
+    
+  }
+
+  .hamburger-icon.hide-hamburger {
+    display: none; /* Hide when the class is applied */
+    /* Other styles */
+}
+
+.hamburger-icon.hide-hamburger + .close-button {
+    display: block;
+}
+
+  .close-button {
+    background: transparent;
+    color: white;
+    border: solid white 2px;
+    font-size: 16px;
+    padding: 1%;
+    order: 2;
+    display: none;
+   
   }
   .navbar2 {
     background-color: #333;
@@ -129,10 +151,12 @@ body {
     display: none;
     transition: left 0.3s ease;
     margin-top: 70px;
+    order: 1;
   }
 
   .navbar2.show-navbar2 {
     display: block; /* Displayed when show-navbar2 class is present */
+    height: 500px;
 }
 
 
@@ -151,8 +175,7 @@ body {
     color: #fff;
     text-decoration: none;
     padding: 5px 10px;
-    border-radius: 5px;
-    
+    border-radius: 5px;    
     width: 100%;
   }
 
@@ -201,9 +224,20 @@ body {
         font-size: 16px;
         padding-bottom: 30px;
         }
-    }
+
+    /*modifications */
+    
 
     
-  }
+
+
+
+    }
+
+
+
+
+    
+  
 
   
