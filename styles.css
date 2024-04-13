@@ -14,15 +14,28 @@ body {
     margin: auto;
 }
 
+.circle-background {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 50px; /* Make sure the circle covers the entire container */
+    height: 850px; /* Make sure the circle covers the entire container */
+    border-radius: 50%; /* Ensures it's a circle */
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
+    z-index: -1; /* Send the circle to the background */
+    filter: blur(80px); /* Add a blur effect */
+  }
+
 .heroLanding {
     width: 100%;
-    height: 838px;    
-    background-color: black;
+    height: 700px; 
     margin: auto;
     background-image: url(landingImages/background1.jpeg) ;
     background-size: cover;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     position: relative;
+    max-height: 750px;
 
 }
 
@@ -81,10 +94,10 @@ body {
 }
 .hero-title h1 {
     color: white;
-    font-size: 80px ;
+    font-size: 80px;
     padding-left: 2%;
     margin-bottom: 0%;
-    margin-top: 12%;
+    margin-top: 3%;
 
 }
 .hero-title p {
@@ -100,17 +113,21 @@ body {
     text-decoration: none;
     margin-left: 3%;
     font-size: 20px;
+    margin-bottom: 1%;    
     
 }
+
 .learn:hover {
     background-color: #16A6FF;
 }
 .gBottom {
     background: linear-gradient(to top, rgba(10, 10, 10, 1), rgba(0, 0, 0, 0));
-    height: 120px;
+    height: 11vh;
     position: absolute;
     bottom: 0;
     width: 100%;
+    margin-top: 1%;
+
     
 }
 /* hamburger iconnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
@@ -189,6 +206,25 @@ body {
 
 /*    ENDENDENDENDENDEND HAMBURGER  nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
 
+.container-cards {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    
+}
+.card {
+    background: transparent; 
+    color: white;
+    padding: 20px;
+    margin: 1%;
+    border-radius: 10px;
+    width: 30%; /* Adjust the width of the cards */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* 50% transparent white border */
+
+}
+
+
+
 .footer {
     border: rgb(30, 30, 30) solid 3px;
     width: 100%;
@@ -201,8 +237,32 @@ body {
     padding-left: 3%;
 }
 
+@media screen and (max-width: 1050px) and (orientation: landscape) {
+    /* Adjust font size for horizontal orientation on smaller screens */
+    .hero-title h1 {
+        font-size: 25px ;  
+        margin-top: 5vh; 
+        }
+
+    .hero-title p {
+        font-size: 16px;
+        margin-bottom: 15vh;  
+    }
+
+    .heroLanding {        
+        height: 500px;     
+    }
+
+    
+
+
+
+  }
+
 /* Media query for screens 800px or smaller */
 @media screen and (max-width: 800px) {
+   
+
     /* Hide the original navbar */
     .navLinks {
       display: none;
@@ -215,18 +275,34 @@ body {
     }
 
     .heroLanding {        
-        height: 538px;     
+        height: 500px;     
     }
 
+    
+
     .hero-title h1 {
-        font-size: 30px ;   
-    }
+        font-size: 30px ;  
+        margin-top: 5vh; 
+        }
     .hero-title p {
         font-size: 16px;
         padding-bottom: 30px;
         }
 
-    /*modifications */
+    .gBottom {
+       height: 7vh;        
+    }
+
+    
+
+    .container-cards {
+            flex-direction: column; /* Change layout to vertical on small screens */
+        }
+
+    .card {
+            width: 80%; /* Make cards occupy full width on small screens */
+            margin-bottom: 20px; /* Add some space between the cards */
+        }
     
 
     
