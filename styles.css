@@ -38,7 +38,7 @@ a {
     width: 100%;
     height: 700px; 
     margin: auto;
-    background-image: url(landingImages/background1.jpeg) ;
+    background-image: url(landingImages/hero1a.jpg) ;
     background-size: cover;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     position: relative;
@@ -127,16 +127,7 @@ a {
 .learn:hover {
     background-color: #16A6FF;
 }
-.gBottom {
-    background: linear-gradient(to top, rgba(10, 10, 10, 1), rgba(0, 0, 0, 0));
-    height: 11vh;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    margin-top: 1%;
 
-    
-}
 /* hamburger iconnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
 /* Hamburger icon */
 .hamburger-icon {
@@ -212,6 +203,8 @@ a {
 
 
 /*    ENDENDENDENDENDEND HAMBURGER  nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
+
+
 
 .container-cards {
     display: flex;
@@ -296,10 +289,7 @@ a {
         padding-bottom: 30px;
         }
 
-    .gBottom {
-       height: 7vh;        
-    }
-
+   
     
 
     .container-cards {
