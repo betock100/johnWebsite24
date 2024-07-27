@@ -3,7 +3,7 @@
 .heroAbout {
     width: 100%;
     height: 538px; 
-    margin: auto;
+    
     background-image: url(landingImages/background1.jpeg) ;
     background-size: cover;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -13,26 +13,211 @@
 
 .heroAbout h1 {
     color: white;
-    font-size: 60px ;
+    font-size: 75px ;
     padding-left: 2%;
     margin-bottom: 0%;
-    margin-top: 2%;
+    margin-top: 10%;
 
 }
+
+
+
+.heroProjects {
+    width: 100%;
+    height: 538px; 
+    margin: auto;
+    background-image: url(landingImages/projectsL.jpg) ;
+    background-size: cover;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.heroProjects h1 {
+    margin-top: 10%;
+}
+
+
 
 .comment {
-    padding: 5%;
+    
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    
 }
 
-.comment p {
+.comm_testi p {
     color: white;
     font-size: 20px;
     font-style: italic;
+    padding: 20px 20px 0;
 
+}
+
+.who {
+    display: flex;
+    justify-content: space-between;    
+    gap: 20px;
+    padding-top: 20px;
+
+}
+
+.whoText {
+    flex: 1;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.9;
+    color:#ffffff;
+    border: solid rgb(62, 62, 62) 1px ;
+    border-radius: 8px;
+    padding-right: 4vw;
+    padding-left: 1.5vw;    
+
+
+}
+
+.whoImage img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 700px;
 }
 
 .testimonials1 {
     color: white;
-    border-bottom: solid 1px white;
+    position: relative; /* Ensure the pseudo-element is positioned relative to .testimonials1 */
+    padding-left: 1%; /* Keep your existing padding */
+    padding-bottom: 10px;
+}
+
+.testimonials1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 300px; /* Set the length of the border */
+    border-bottom: solid 3px #16A6FF;
+    ;
+    margin-left: 10px;
+}
+
+.secServices2 {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: flex-start; /* Align items to the top of the container */
+    padding-top: 3vh;
+}
+
+.uordered1 {
+    flex: 1; /* Allow it to grow and take up available space */
+    margin-right: 20px; /* Add space between the unordered list and picWords */
+    color: rgb(225, 224, 224);
+    line-height: 1.5;
+}
+
+.uordered1 ul {
+    list-style-type: disc; /* Default bullet points */
+    padding-left: 20px; /* Add padding to align with bullet points */
+}
+
+.picWords {
+    flex: 1; /* Allow it to grow and take up available space */
+    text-align: center; /* Center align text within picWords */
+    border-radius: 8px; /* Add rounded edges */
+    overflow: hidden; /* Ensure child elements respect the border radius */
+}
+
+.picTop {
+    background-image: url('landingImages/services2.jpeg'); /* Add your image */
+    background-size: cover; /* Cover the entire element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-color: #ccc; /* Placeholder background color for the picture */
+    height: 200px; /* Placeholder height for the picture */
+    margin-bottom: 20px; /* Space between the picture and the contact button */
+    border-radius: 8px;
+}
+
+.underPic {
+    
+    color: white; /* White text for better contrast */
+    padding: 10px 20px; /* Padding for the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 8px;
+    background-color: #18CFDC;
+}
+
+
+
+
+/* Media query for screens 800px or smaller */
+@media screen and (max-width: 800px) {
+
+    .heroAbout {
+
+        height: 500px; 
+               
+    }
+
+    .heroAbout h1 {
+        color: white;
+        font-size: 45px ;
+        padding-left: 1%;
+        margin-bottom: 0%;
+        margin-top: 30%;        
+    
+    }
+
+    .heroProjects h1 {
+        margin-top: 30%;
+        font-size: 40px;
+    }
+
+    .secServices2 {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .who {
+        flex-direction: column;  
+    }
+
+    .whoImage {
+        width: 100%;
+        
+        
+
+    }
+    .whoText {
+        max-width: none;
+        padding-bottom: 20px;
+    }
+    .whoImage img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    .testimonials1 {        
+        padding-left: 3%; /* Keep your existing padding */
+    }
+
+    .uordered1 {
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 20px; /* Add space between the list and picWords */
+        width: 100%;
+    }
+
+    .picWords {
+        text-align: center; /* Center align text within picWords */
+        width: 100%;
+    }
+
+   
+
+}
+
+@media screen and (min-width: 900px) {
+    .whoText p {
+        padding-left: 10px;
+    }
 }

@@ -4,7 +4,7 @@ css styling for jrc-electri
 */
 body {
     background-color: black;
-    color: #333; 
+    color: #afafaf; 
        
 }
 
@@ -12,7 +12,14 @@ body {
     max-width: 1440px;
     width: auto;
     margin: auto;
+    
 }
+
+a {
+    text-decoration: none;
+    color: inherit; /* Optional: ensures the link color matches the surrounding text */
+}
+
 
 .circle-background {
     position: absolute;
@@ -300,7 +307,7 @@ body {
         }
 
     .card {
-            width: 80%; /* Make cards occupy full width on small screens */
+            width: 90%; /* Make cards occupy full width on small screens */
             margin-bottom: 20px; /* Add some space between the cards */
         }
     
