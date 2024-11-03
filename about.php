@@ -10,7 +10,7 @@
     
 </head>
 <body>
-    <div class="container">
+    <div class="containero">
         <div class="heroAbout">
             <div class="shade">
                 <?php include 'navBar.php'; ?> 
@@ -70,7 +70,7 @@
         </div>
         
 
-        <div class="container-cards">
+        <div class="containero-cards">
             <div class="card">
                 <h2>Contact</h2>
                 <p>Jrcelectric26@gmail.com</p>

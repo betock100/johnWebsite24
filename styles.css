@@ -8,7 +8,7 @@ body {
        
 }
 
-.container {
+.containero {
     max-width: 1440px;
     width: auto;
     margin: auto;
@@ -206,7 +206,7 @@ a {
 
 
 
-.container-cards {
+.containero-cards {
     display: flex;
     justify-content: space-between; /* Distribute items evenly along the main axis */
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -292,7 +292,7 @@ a {
    
     
 
-    .container-cards {
+    .containero-cards {
             flex-direction: column; /* Change layout to vertical on small screens */
         }
 
