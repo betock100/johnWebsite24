@@ -52,19 +52,19 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="gallery1/kitchenUp1.JPEG" class="d-block w-100" alt="Hagertown">
+                                <img src="gallery1/kitchenUp1.jpeg" class="d-block w-100" alt="Hagertown">
                             </div>
                             <div class="carousel-item">
-                                <img src="gallery1/kitchenUp2.JPEG" class="d-block w-100" alt="Hagertown">
+                                <img src="gallery1/kitchenUp2.jpeg" class="d-block w-100" alt="Hagertown">
                             </div>
                             <div class="carousel-item">
-                                <img src="gallery1/kitchenUp3.JPEG" class="d-block w-100" alt="Hagertown">
+                                <img src="gallery1/kitchenUp3.jpeg" class="d-block w-100" alt="Hagertown">
                             </div>
                             <div class="carousel-item">
-                                <img src="gallery1/kitchenUp4.JPEG" class="d-block w-100" alt="Hagertown">
+                                <img src="gallery1/kitchenUp4.jpeg" class="d-block w-100" alt="Hagertown">
                             </div>
                             <div class="carousel-item">
-                                <img src="gallery1/kitchenUp5.JPEG" class="d-block w-100" alt="Hagertown">
+                                <img src="gallery1/kitchenUp5.jpeg" class="d-block w-100" alt="Hagertown">
                             </div>
                             
                         </div>
@@ -107,19 +107,19 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="gallery1/kitchenUp1.JPEG" class="d-block w-100" alt="Hagertown">
+                                <img src="gallery2/ricko1.jpeg" class="d-block w-100" alt="Hagertown">
                             </div>
                             <div class="carousel-item">
-                                <img src="gallery1/kitchenUp2.JPEG" class="d-block w-100" alt="Hagertown">
+                                <img src="gallery2/ricko2.jpeg" class="d-block w-100" alt="Hagertown">
                             </div>
                             <div class="carousel-item">
-                                <img src="gallery1/kitchenUp3.JPEG" class="d-block w-100" alt="Hagertown">
+                                <img src="gallery2/ricko3.jpeg" class="d-block w-100" alt="Hagertown">
                             </div>
                             <div class="carousel-item">
-                                <img src="gallery1/kitchenUp4.JPEG" class="d-block w-100" alt="Hagertown">
+                                <img src="gallery2/ricko4.jpeg" class="d-block w-100" alt="Hagertown">
                             </div>
                             <div class="carousel-item">
-                                <img src="gallery1/kitchenUp5.JPEG" class="d-block w-100" alt="Hagertown">
+                                <img src="gallery2/ricko5.jpeg" class="d-block w-100" alt="Hagertown">
                             </div>
                             
                         </div>
@@ -140,9 +140,9 @@
 
                 <div class="leyenda">
 
-                    <h2>Hagerstown, Maryland</h2>
+                    <h2>Rickover Rd, Silver Spring, MD</h2>
 
-                    <p>Entire house project</P>
+                    <p>Whole house rewiring</P>
                 </div>
             </div>
         

@@ -226,15 +226,19 @@ a {
 
 
 .footer {
-    border: rgb(30, 30, 30) solid 3px;
-    width: 100%;
-    height: 80px;
+    border: rgb(30, 30, 30) solid 1px;
+    width: 100%;    
     color: #16A6FF;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    display: flex;
-    align-items: center;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;    
+    text-align: center;
     box-sizing: border-box;
-    padding-left: 3%;
+    padding: 3%;
+    margin-bottom: 60px;
+    border-radius: 8px;
+}
+
+.footer p {
+    margin: 10px 0; /* Adds vertical spacing between paragraphs */
 }
 
 @media screen and (max-width: 1050px) and (orientation: landscape) {
