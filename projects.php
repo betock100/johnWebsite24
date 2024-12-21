@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="styleSubs.css"> <!-- Sub-pages CSS file -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -38,6 +38,87 @@
                 <p>Rewired Power</p>
                 <br/>
             </div>
+
+            <!-- upper gallery  -->
+            
+
+            <div class="border-gal">
+
+                <div class="silver">
+                    <h1>Kitchen Transformation in Silver Spring, MD</h1>
+
+                    <p>A STUNNING OPEN-CONCEPT KITCHEN WITH CUSTOM FEATURES AND ELEGANT DESIGN</p>
+                    <p>This project showcases the transformation of a standard kitchen into a sleek and modern culinary space in Silver Spring, MD. 
+                        Highlights include the installation of brand-new cabinets that maximize storage and style, complemented by luxurious countertops. 
+                        The kitchen’s open-concept design enhances the flow between living areas, making it perfect for gatherings. 
+                        Our team completed extensive rough and finish electrical work to provide optimal lighting and functionality, along with professional plumbing to install a new sink and faucet.
+
+                        A vibrant backsplash adds a pop of personality, while the crowning feature—a striking black spiral staircase with hardwood steps—seamlessly connects the kitchen to the second floor. 
+                        This upgrade is a testament to the power of thoughtful design and meticulous craftsmanship.</p>
+                
+                </div>
+                <!-- Bootstrap carrousel starts -->
+                <div class="gallery1">
+                    <div id="carouselExampleIndicators1" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="5" aria-label="Slide 5"></button>
+
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="gallery.9/kitch1.jpeg" class="d-block w-100" alt="Silver Spring">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="gallery.9/kitch2.jpeg" class="d-block w-100" alt="Silver Spring">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="gallery.9/kitch3.jpeg" class="d-block w-100" alt="Silver Spring">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="gallery.9/kitch4.jpeg" class="d-block w-100" alt="Silver Spring">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="gallery.9/kitch5.jpeg" class="d-block w-100" alt="Silver Spring">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="gallery.9/kitch6.jpeg" class="d-block w-100" alt="Silver Spring">
+                            </div>
+
+                            
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+
+                        
+                </div>
+                <!-- Bootstrap carrousel ends -->
+
+                <div class="leyenda">
+
+                    <h2>Silver Spring, Maryland</h2>
+
+                    <p>Kitchen Project</P>
+                </div>
+            </div>
+
+
+            <!-- End of upper gallery -->
+
+
+
 
             <div class="border-gal">
                 <!-- Bootstrap carrousel starts -->
