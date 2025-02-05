@@ -66,6 +66,7 @@
     border: rgb(96, 96, 96) solid .1px;
     border-radius: 8px;
     padding-top: 3%;
+    margin-bottom: 30px;
 }
 
 .silver h1 {
@@ -261,6 +262,10 @@
     .heroProjects h1 {
         margin-top: 30%;
         font-size: 40px;
+    }
+
+    .silver p {
+        font-size: 1rem;
     }
 
     .secServices2 {
